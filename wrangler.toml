@@ -1,0 +1,9 @@
+name = "abstwin"                 # должно совпадать с именем твоего Worker в dashboard (проверь!)
+compatibility_date = "2026-02-01"
+
+assets = { directory = "." }      # "." = весь корень репо как статические файлы
+                                  # или "./" если хочешь точнее
+
+# Опционально, если хочешь SPA-режим (все пути → index.html)
+[assets]
+not_found_handling = "single-page-application"
